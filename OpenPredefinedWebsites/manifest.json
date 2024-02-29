@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Website Opener",
+    "version": "1.0",
+    "description": "Open multiple websites at once",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "openPredefinedWebsitesIcon.png",
+        "48": "openPredefinedWebsitesIcon.png",
+        "128": "openPredefinedWebsitesIcon.png"
+      }
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
+  
